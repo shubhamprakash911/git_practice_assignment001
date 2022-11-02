@@ -1,10 +1,10 @@
 
-function checkPrime(number)
+function checkPrime(num)
 {
      let factors=0;
-     for(a=1;a<=number;a++)
+     for(a=0;a<=num;a++)
      {
-        if(number%a==0){
+        if(num%a==0){
          factors++;
         }
      }
