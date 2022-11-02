@@ -9,7 +9,7 @@ function checkPrime(num)
         }
      }
   
-if(factors==0){
+if(factors==2){
  return true;
 }else{
  return false;
