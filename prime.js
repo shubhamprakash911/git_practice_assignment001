@@ -2,14 +2,14 @@
 function checkPrime(number)
 {
      let factors=0;
-     for(a=0;a<=number;a++)
+     for(a=1;a<=number;a++)
      {
         if(number%a==0){
          factors++;
         }
      }
   
-if(factors==0){
+if(factors==2){
  return true;
 }else{
  return false;
